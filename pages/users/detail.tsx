@@ -1,7 +1,7 @@
-export default function() {
-    return (
-        <div>
-            <p>User detail</p>
-        </div>
-    );
+export default function Detail() {
+  return (
+    <div>
+      <p>User detail</p>
+    </div>
+  );
 }
