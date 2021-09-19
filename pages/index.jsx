@@ -1,12 +1,9 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1 className="title">Welcome Anam</h1>
-      <Footer />
-    </div>
+    </Layout>
   );
 }

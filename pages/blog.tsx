@@ -1,7 +1,9 @@
-export default function () {
+import Layout from '../components/Layout';
+
+export default function Blog() {
   return (
-    <div>
+    <Layout>
       <p className="title">This is blog</p>
-    </div>
+    </Layout>
   );
 }
